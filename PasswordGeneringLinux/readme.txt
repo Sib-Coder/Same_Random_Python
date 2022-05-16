@@ -7,5 +7,5 @@ for i in $(cat text.txt); do echo $i | chpasswd; done
 удаление юзеров
 for (( i=1; i < 10; i++ )); do userdel -f user$i ; done
 
-скрипт на питоне для генерации пользователей
+скрипт на питоне для генерации пользователей+паролей
 main.py
